@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Quiz</string>
+    
+    <!-- Main welcome menu -->
+    <string name="playAgain_btn">PLAY AGAIN</string>
+    <string name="play_btn">PLAY</string>
+    <string name="scores_btn">HIGH SCORES</string>
+    <string name="finish_btn">FINISH</string>
+
+</resources>

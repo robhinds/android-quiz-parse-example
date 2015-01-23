@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent" 
+	android:gravity="center_horizontal">
+
+
+	<LinearLayout 
+	    android:orientation="horizontal"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:paddingTop="5dip" 
+		android:paddingBottom="5dip"
+		android:gravity="center_horizontal">
+
+		<RadioGroup 
+		    android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+			android:orientation="vertical"
+			android:id="@+id/group1">
+			
+			<TextView android:layout_width="fill_parent"
+				android:layout_height="wrap_content" 
+				android:textColor="#000000"
+				android:textSize="25sp"
+				android:textStyle="bold" 
+				android:id="@+id/question"/>
+			
+			<RadioButton android:checked="false" android:id="@+id/answer1" />
+			
+			<RadioButton android:checked="false" android:id="@+id/answer2" />
+			
+			<RadioButton android:checked="false" android:id="@+id/answer3" />
+			
+			<RadioButton android:checked="false" android:id="@+id/answer4" />
+			
+		</RadioGroup>
+
+	</LinearLayout>
+	
+	
+
+	<LinearLayout 
+	    android:orientation="horizontal"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:paddingTop="5dip" 
+		android:paddingBottom="5dip"
+		android:gravity="center_horizontal">
+		
+		<Button
+            android:background="#2fcc71"
+		    android:id="@+id/nextBtn"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="NEXT" 
+            android:fontFamily="sans-serif-light" 
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp" />
+
+	</LinearLayout>
+
+</LinearLayout>

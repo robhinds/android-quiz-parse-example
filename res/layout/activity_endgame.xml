@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content"
+	android:paddingTop="5dip" 
+	android:paddingBottom="5dip"
+	android:gravity="center_horizontal">
+
+		<TextView 
+		    android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+			android:textColor="#000000"
+			android:textSize="25sp"
+			android:textStyle="bold" 
+			android:id="@+id/endgameResult"
+			android:paddingLeft="15dip" 
+			android:paddingRight="15dip"
+			android:gravity="center_horizontal" />
+		
+        <Button
+            android:background="#f1c40f"
+            android:id="@+id/playBtn"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/playAgain_btn" 
+            android:fontFamily="sans-serif-light" 
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:onClick="startNewGame" />
+        
+        <Button
+            android:background="#2fcc71"
+            android:id="@+id/exit"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/finish_btn" 
+            android:fontFamily="sans-serif-light" 
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:onClick="finish"  />
+
+</LinearLayout>
